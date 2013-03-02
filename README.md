@@ -1,6 +1,6 @@
 # Lessons
 
-The lessons from the Doctors on Rails course, split into folders, each with a sample before and after subfolder.
+The lessons from the Doctors on Rails course, split into folders, each with an example and an attempt folder for you to make your attempt in.
 
 ## Lesson Breakdown
 
