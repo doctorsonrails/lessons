@@ -1,0 +1,58 @@
+# Sinatra
+
+Let's look at each other's CVs. 
+
+We're going to create a web application which you will host locally, and which allows you to see each others files.
+
+The start directory contains lots of blank files that you'll need to fill in. 
+
+## Files
+
+### Gemfile
+
+This lists the libraries that your application is using.
+
+* We need to start off by adding a "source" - the authority about the libraries you're using. To do this add `source 'https://rubygems.org'`
+* Now let's list the libraries. We're going to just start with one - Sinatra, the web framework. Include this by adding the list `gem 'sinatra'`
+* We can install the libraries using `bundle install` on the command line - this installs the gems you've specified plus their dependancies.
+
+### Sinatra
+
+* Let's create a basic Sinatra application to test everything's working:
+
+```
+require 'sinatra'
+
+get '/hello' do
+  "Hello, world!. It's #{Time.now} :)"
+end
+```
+
+Run `bundle exec ruby server.rb` and visit `localhost:4567/hello` in your browser. You should see "Hello, World!" displayed with the current time! Simple. Refresh the page and see the time change. 
+
+### Rendering your CV
+
+Let's add another action to sinatra to render the CV. We're going to make this the default one that you see when you go to localhost:4567 - this is called the root or index action.
+
+We're going to use `erb`, the default template engine to render our CV. Add this:
+
+```
+get '/' do
+  erb :index
+end
+```
+
+Now copy your CV into the views directory as `index.erb` and your image and stylesheet into the public directory.
+
+Restart the server, visit `localhost:4567` and you should now see your CV. You can now give your IP address to your classmates (run `ifconfig | grep 192` in the console to get it) and they should be able to see your CV on port 4567 (e.g. http://192.168.0.1:4567).
+
+You have your first web application.
+
+## Topics Covered
+
+* What's a web framework?
+* Sinatra - a very light framework.
+* What are Gems? What is RubyGems?
+* What is bundler
+* What is an ip address / port.
+* The basics of a web request. Browser asks, server gives.
