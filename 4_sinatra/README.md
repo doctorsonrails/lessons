@@ -4,8 +4,6 @@ Let's look at each other's CVs.
 
 We're going to create a web application which you will host locally, and which allows you to see each others files.
 
-The start directory contains lots of blank files that you'll need to fill in. 
-
 ## Files
 
 ### Gemfile
@@ -42,11 +40,28 @@ get '/' do
 end
 ```
 
-Now copy your CV into the views directory as `index.erb` and your image and stylesheet into the public directory.
+Now mv your CV into the views directory as `index.erb` and your image and stylesheet into the public directory:
+
+```
+mkdir views
+mv cv.html views/index.erb
+
+mkdir public
+mv cv.css public/cv.css
+mv img.jpg public/img.jpg
+```
 
 Restart the server, visit `localhost:4567` and you should now see your CV. You can now give your IP address to your classmates (run `ifconfig | grep 192` in the console to get it) and they should be able to see your CV on port 4567 (e.g. http://192.168.0.1:4567).
 
-You have your first web application.
+You have your first web application. Push it up to Github for safe-keeping. Make sure you include the deleted files by either removing them or using the `a` (for all) flag on the commit.
+
+```
+git status
+git add .
+git status
+git commit -am "Added Sinatra app"
+git push
+```
 
 ## Topics Covered
 
@@ -56,3 +71,7 @@ You have your first web application.
 * What is bundler
 * What is an ip address / port.
 * The basics of a web request. Browser asks, server gives.
+
+* Ruby `require`
+* Ruby blocks
+* Ruby symbols

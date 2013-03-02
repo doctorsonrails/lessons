@@ -1,7 +1,5 @@
 # CSS
 
-**Note: The start position for this exercise is the same as the finish of "Markup"**
-
 Your task is to style your CV to how you want it to look.
 
 We will talk you through how we style ours, then you can have a go at styling yours.
@@ -26,3 +24,14 @@ We will talk you through how we style ours, then you can have a go at styling yo
     * section + h3
     * section > h3
     * section h2, section h3
+
+When you're happy add your file to git and push it to Github:
+
+```
+git status
+git add cv.html
+git add cv.css
+git status
+git commit -m "Added CV"
+git push
+```
