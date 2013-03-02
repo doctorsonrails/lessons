@@ -20,7 +20,7 @@ The final document should be roughly structured like this:
 ```
 
 ## Topics Covered
-* What is HTML? 
+* What is HTML? (The structure of a web page)
 * XML
 * Syntax
     * Opening and closing tags.
