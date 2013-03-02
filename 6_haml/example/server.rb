@@ -1,7 +1,7 @@
 require 'sinatra'
 
 get '/' do
-  erb :index
+  haml :index
 end
 
 get '/hello' do
