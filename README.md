@@ -2,6 +2,8 @@
 
 The lessons from the Doctors on Rails course, split into folders, each with a sample before and after subfolder.
 
-## Lessons
+## Lesson Breakdown
 
-... Todo 
+### Markup
+
+Convert a document from text to HTML by marking it up using tags.
