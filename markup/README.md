@@ -18,3 +18,15 @@ The final document should be roughly structured like this:
     </body>
 </html>
 ```
+
+## Topics Covered
+* What is HTML? 
+* XML
+* Syntax
+    * Opening and closing tags.
+    * Self-closing tags.
+    * Attributes.
+    * Ids and classes
+    * Lang tag
+    * Doctype
+* [W3 Validator](validator.w3.org)
