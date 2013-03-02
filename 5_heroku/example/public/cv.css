@@ -38,6 +38,7 @@ header img {
     height:134px;
     padding:5px 5px 0px 5px;
     background:#fff;
+    border-left:1px solid #c1dbf1;
 }
 
 header address, header #phone, header #email {
