@@ -16,5 +16,5 @@ Add some style to your web page.
 ### 4. Sinatra
 Create a web application to host your CV.
 
-## 5. Heroku
+### 5. Heroku
 Push the application online.

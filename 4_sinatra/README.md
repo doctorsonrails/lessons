@@ -4,8 +4,6 @@ Let's look at each other's CVs.
 
 We're going to create a web application which you will host locally, and which allows you to see each others files.
 
-## Files
-
 ### Gemfile
 
 This lists the libraries that your application is using.
