@@ -18,7 +18,7 @@ Restart the server, and everything should be rendered as normal.
 
 Now convert your stylesheet to Scss, adding nesting and variables.
 
-Check it all works and push to Github.
+Check it all works and push to Github and Heroku.
 
 ## Topics Covered
 

@@ -9,7 +9,7 @@ It's easy to get started. Haml is included in Sinatra, so there's no need to bun
 
 Simple, and so much DRYer. 
 
-**Don't forget to add your changes to git.**
+Push it to Github and Heroku.
 
 ## Topics Covered
 

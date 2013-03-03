@@ -27,3 +27,6 @@ Replace the pesky HTML with the beautiful HAML
 
 ### 7. Scss
 Dry up your CSS with Scss
+
+### 8. Rails
+Generate your first Rails app with a cv section resource.
