@@ -28,7 +28,7 @@ We want to create a resource which represents a section of the CV. Rails has a c
 rails generate scaffold cv_section title:string content:text
 ```
 
-** Ed: Introduce databases **
+**Ed: Introduce databases**
 
 We need to store information about these CV sections somewhere so we create a database. By default, we're using SQLite - a very basic but easy-to-setup database. Create the database with:
 ```
@@ -46,7 +46,7 @@ Play around with creating some sections for your CV (You can copy the sections f
 
 You have a fully working CV section creation app. Easy. Let's see how it's working
 
-** Ed: MVC **
+**Ed: MVC**
 
 ## Topics Covered
 
