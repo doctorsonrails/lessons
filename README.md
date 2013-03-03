@@ -1,8 +1,11 @@
 # Lessons
 
-The lessons from the Doctors on Rails course, split into folders, each with an example and an attempt folder for you to make your attempt in.
+The lessons from the [Doctors on Rails](http://www.doctorsonrails.org) course, with walkthroughs and examples.
 
 ## Lesson Breakdown
+
+### 0. Introduction
+Why are we all here?
 
 ### 1. Git (and Github)
 We want to keep a full record of everything we do.
@@ -18,3 +21,9 @@ Create a web application to host your CV.
 
 ### 5. Heroku
 Push the application online.
+
+### 6. HAML
+Replace the pesky HTML with the beautiful HAML
+
+### 7. Scss
+Dry up your CSS with Scss
