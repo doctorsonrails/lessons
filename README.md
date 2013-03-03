@@ -30,3 +30,6 @@ Dry up your CSS with Scss
 
 ### 8. Rails
 Generate your first Rails app with a cv section resource.
+
+### 9. Rails on Heroku
+Always deploy early!
