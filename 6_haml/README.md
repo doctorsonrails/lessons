@@ -2,9 +2,8 @@
 
 HTML is a pain to write. Remembering to close tags, such a high risk of typos etc. We use HAML, which compiles down to HTML.
 
-It's easy to get started. 
+It's easy to get started. Haml is included in Sinatra, so there's no need to bundle it.
 
-* Add `gem haml` to your Gemfile and run `bundle install`. 
 * Change the call to `erb :index` to `haml :index` in your server. 
 * Convert your template from HTML to HAML.
 

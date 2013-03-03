@@ -38,7 +38,12 @@ get '/' do
 end
 ```
 
-Now mv your CV into the views directory as `index.erb` and your image and stylesheet into the public directory:
+Now create two directories: `views` and `public`
+
+* `views` contain things that should be process by Sinatra
+* `public` contains things that can just be rendered in their existing state
+
+Move your CV into the views directory as `index.erb`, and move your image and stylesheet into the public directory, as such:
 
 ```
 mkdir views
@@ -51,7 +56,11 @@ mv img.jpg public/img.jpg
 
 Restart the server, visit `localhost:4567` and you should now see your CV. You can now give your IP address to your classmates (run `ifconfig | grep 192` in the console to get it) and they should be able to see your CV on port 4567 (e.g. http://192.168.0.1:4567).
 
-You have your first web application. Push it up to Github for safe-keeping. Make sure you include the deleted files by either removing them or using the `a` (for all) flag on the commit.
+You have your first web application. 
+
+We should change the links to the image and stylesheet to stop being relative (`./jeremy.jpg`) and start being absolute (`/jeremy.jpg`) as we are now working referencing from the point of view of a webserver, not a file system.
+
+Push it up to Github for safe-keeping. Make sure you include the deleted files by either removing them or using the `a` (for all) flag on the commit.
 
 ```
 git status
