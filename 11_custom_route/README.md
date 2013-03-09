@@ -51,13 +51,19 @@ Change your show route to:
   end
 ```
 
-This get's all the resume sections from the database as an array and puts them into a variable called `@sections`
+This get's all the resume sections from the database as an array and puts them into a variable called `@sections`.
 
+In our template, we can now refer to this `@sections` variable and loop through each section, printing it out.
 
-Now, we're going to 
+```
+-@sections.each do |section|
+    %section= section.content
+```
+
+Refresh the page and you'll now see the sections added.
 
 ## Topics Covered
 
-* `rails g controller`
-* Rails Tests
-* `TDD`
+* Creating controllers, actions and routes.
+* Retrieving from the database.
+* Looping and variables in HAML.
