@@ -28,8 +28,14 @@ Replace the pesky HTML with the beautiful HAML
 ### 7. Scss
 Dry up your CSS with Scss
 
-### 8. Rails
+### 8. Ruby
 Generate your first Rails app with a cv section resource.
 
-### 9. Rails on Heroku
+### 9. Rails
+Generate your first Rails app with a cv section resource.
+
+### 10. Rails on Heroku
 Always deploy early!
+
+### 11. Custom Route
+Let's add a custom controller
