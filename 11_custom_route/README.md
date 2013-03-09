@@ -57,10 +57,37 @@ In our template, we can now refer to this `@sections` variable and loop through 
 
 ```
 -@sections.each do |section|
-    %section= section.content
+    %section
+        %h2= section.content
+        %p= section.content
 ```
 
 Refresh the page and you'll now see the sections added.
+
+This is basically rendering a section template inside the resume template - so let's make that a formal thing.
+
+**Ed - Partials**
+
+Add a template called `app/views/resumes/_section.html.haml` with the content:
+```
+    %section
+        %h2= section.content
+        %p= section.content
+```
+
+and change the sections loop in `show.html.haml` template to:
+
+```
+=render partial: "section", collection: @sections
+```
+
+There's a nice shorthand for this:
+
+```
+=render @sections
+```
+
+How magic is that?! :)
 
 ## Topics Covered
 
