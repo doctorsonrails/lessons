@@ -2,7 +2,7 @@
 
 Sign in to Github and create a new repository for your work.
 
-Create a directory for your CV. Github repositories should always have readmes to say what they are. Create a file called ```README.md``` and give your application a little description. Now make the folder a Github repository by:
+Create a directory for your Repository. Github repositories should always have readmes to say what they are. Create a file called ```README.md``` and give your application a little description. Now make the folder a Github repository by:
 
 ```
 git init
