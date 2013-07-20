@@ -1,0 +1,38 @@
+section#header h1 {
+  text-decoration: underline;
+  float: left;
+  margin-bottom: 30px;
+}
+
+#container {
+  width: 880px;
+  margin: 0 auto;
+  border: 1px solid gray;
+  padding: 10px;
+}
+
+.clearfix {
+  clear: both;
+}
+
+section nav {
+  float: right;
+}
+
+nav ul {
+  list-style:none;
+}
+
+nav ul li {
+  float: left;
+  margin-left: 10px;
+}
+
+section#about {
+  display: block;
+  color: green;
+}
+
+section#training {
+  color: red;
+}
